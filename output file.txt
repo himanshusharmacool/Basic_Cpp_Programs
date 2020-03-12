@@ -1,0 +1,465 @@
+Program output text file
+=======================================================
+
+Prog1:-  Program to check number is prime or not
+output:- Enter Number to check it is Prime or not :- 45
+	 45 is not a Prime Number 
+========================================================
+
+Prog2:- Program to find Reverse of a number.
+output:- Enter number to find its reverse :- 5673
+         Reverse of 5673 is :- 3765
+
+=======================================================
+
+Prog3:- Program to find sum of digits
+output:-Enter number to find its digit sum:-34
+	Sum of Digit of 34 is 7
+
+========================================================
+
+Prog4:- Program to find factorial of a number.
+output:- Enter number to find factorial:- 5
+	 Factorial of 5 is :- 120
+
+========================================================
+
+Prog5:- Program to print Fibonacci series
+output:-Enter number of terms for Fibonacci series:- 10
+	Fibonacci series :- 0 1 1 2 3 5 8 13 21 34 
+
+========================================================
+Prog6:- Program for matrix addition, subtraction and multiplication
+output:-	Enter size of First matrix:- 2
+		2
+		Enter size of Second matrix:- 2
+		2
+		Enter Elements of First Matrix:- 
+		1
+		2
+		3
+		4
+		Enter Elements of Second Matrix:- 
+		2
+		3
+		4
+		5
+
+	    ********MENU*********
+		1.Addition
+		2.Subtraction
+		3.Multiply
+		4.View Matrix
+		5.Re-enter Matrix
+		6.Exit
+
+		Enter your Choice:-  1
+		1st Matrix:
+			1	2
+		2nd Matrix:
+			3	4
+
+		Addition of Two Matrix:
+			4	6
+		Do you want to Continue(y/n):- n
+
+=============================================================
+prog7:- Program  to create a structure Student and add functions to read and show details.
+output:-  ******** Menu *********
+		1. Enter Student Data 
+		2. View Student Data 
+		3. Exit 
+		Enter Choice:- 2
+		Roll no	Name
+		1	himanshu
+		2	Arvind
+		Do you want to continue(y/n):- n
+
+============================================================
+prog8:- Program  to find the length of a string.
+output:- Enter  String :- himanshu sharma
+	 Length of string is :- 15
+
+============================================================
+prog9:- Program to concatenate two strings using your defined Function. 
+output:- Enter First String :- himanshu
+	 Enter Second String :- sharma
+	 Concatenated String is :- himanshu sharma
+
+============================================================
+prog10:- Program to show the working of a class Student add functions to read and show details.
+output:- ********menu**********
+		1. Enter value 
+		2. View value 
+		3. Exit
+		Enter your choice:- 2
+		Roll no 	 name
+		1	himashu
+		2	arvind
+		Do you want to continue(y/n) :- n
+
+==============================================================
+prog11:- Program to define a class circle and add functions to perform following tasks. Read, display and calculate area.
+output:- Enter radius of circle:- 4
+	Area of Circle = 50.24
+==============================================================
+prog12:- Program to  to overloaded function area ( ) for calculating the area of triangle and circle.
+output:- Area of circle is :- 78.5
+	Area of Triangle is :- 3
+
+==============================================================
+prog13:- Program to create Student class and add constructors, other functions and destructor.
+output:- 
+	roll no= 20
+	Name= ARVIND
+
+	roll no= 2
+	Name= himashu
+	Enter roll :- 5
+	Enter name:- suraj
+
+	roll no= 5
+	Name= suraj
+	destructor called
+	destructor called
+
+==============================================================
+prog14;- Program to demonstrate constructor function overloading.
+output:- Hii I am Default Constructor..
+	 Hii I am overloaded Constructor due to change in  argument no...
+	 Hii I am also overloaded constructor due to change in sequence of arguments
+
+==============================================================
+prog15:- Program  to create class DISTANCE and overload Binary + operator to add objects. Use member functions.
+output:- dist1 = 2feet 3inches
+
+	dist2 = 4feet 2inches
+
+	dist3 = 6feet 5inches
+
+=============================================================
+prog16:- Program to create class COMPLEX and overload Binary + operator to add objects. Use member functions.
+output:- First Object:- x= 4 , y=6
+
+	 Second Object:- x= 6 , y=7
+
+ 	 Third Object:- x= 10 , y=13
+
+
+============================================================
+prog17:- Program to create class COMPLEX and overload Binary + operator to add objects. Use friend functions.
+output:-First Object:- x=4 , y=6
+	Second Object:- x=6 , y=7
+	Third Object:- x=10 , y=13
+
+======================================================
+prog18:- Program to overload binary < operator to compare two objects of user defined English Distance Class.
+output:- Enter details for first object:-
+
+	 Enter feet: 43
+ 	 Enter inches: 2
+	 Enter details for second object:-
+
+	 Enter feet: 64
+	 Enter inches: 2
+
+
+	 Second object  is larger
+
+======================================================
+prog19:- Program to overload binary + operator to concatenate two objects of user defined class String. 
+output:- Enter string:- Love
+	 Enter string:- Coding 
+	 String:- LoveCoding
+
+===============================================
+prog20:- Program  to overload binary +operator to add two objects of user defined Time class with data members HH MM SS.
+output:- 
+	********** First Object **********
+	Enter Hours:- 3
+	Enter Minutes:- 5
+	Enter Second:- 2
+
+	********** Second Object **********
+	Enter Hours:- 6
+	Enter Minutes:- 3
+	Enter Second:- 1
+
+	********** Combined Time **********
+	Time(HH,MM,SS) :-  9:8:3
+
+
+====================================================
+prog21:- Program to show overloading of ++operator.
+output:- c1=0
+	 c2=0
+	 c1=1
+	 c2=1
+
+=======================================================
+prog22:- Program to show overloading of ( )operator.
+output:- x: 10
+	 y: 20
+	 Value after interchange using () operator
+	 x: 20
+	 y: 10
+
+
+=======================================================
+prog23:- Program to show overloading of [ ]operator.
+output:- ob[1]: 2
+	 ob[1]: 25
+
+======================================================
+prog24:- Program to demonstrate the working of virtual function.
+output:- This is base func()
+	 This is derived func()
+
+======================================================
+prog25:- Program to demonstrate the concept of Inheritance use person and student class for the same
+output:- 
+	********** Person class ************
+	Enter name:- King
+	Enter yout Id:- 1
+
+	Name :- King
+	Id :- 1
+
+
+	********** Student class ************
+	Enter name:- pooja
+	Enter yout Id:- 69
+
+	Name :- pooja
+	Id :- 69
+
+
+=====================================================
+prog26:- Program to implement a class Stack that throws Overflow and Underflow Exceptions.
+output:- 
+	 ******** MENU *********
+	1. Add 
+	2. Remove 
+	3. Exit
+	1
+	Enter your value:- 45
+	Element Added successfully
+
+
+	******** MENU *********
+	1. Add 
+	2. Remove 
+	3. Exit
+	1
+	Enter your value:- 23
+	Element Added successfully
+
+
+	******** MENU *********
+	1. Add 
+	2. Remove 
+	3. Exit
+	2
+	Element Removed :- 23
+
+
+
+	******** MENU *********
+	1. Add 
+	2. Remove 
+	3. Exit
+	2
+	Element Removed :- 45
+
+
+
+	******** MENU *********
+	1. Add 
+	2. Remove 
+	3. Exit
+	2
+	underflow stack
+
+=====================================================
+prog27:- Program to implements template function that interchange two data values.
+output:- 
+	original i,j: 10 20
+	original x,y: a b
+
+	Inside overloaded swap
+	swapped i,j: 20 10
+
+	Inside template function
+	swapped x,y: b a
+
+ 
+=====================================================
+prog28:- Program to implement a generic class Stack, add necessary constructors and other functions.
+output:- Item 20 is pushed
+	 Item 50 is pushed
+	 Item 70 is pushed
+
+	 Overflow stack
+
+===================================================
+prog29:- Program that reads a text file.
+output:-
+	
+hello this is testing file for file handling.
+
+===================================================
+prog30:- Program to writes paragraph to a text file.
+output:- 
+	********* Enter Paragraph ********
+	hello this is testing file for file handling.
+
+	 File writtern successfully
+
+
+=============================================
+prog31:-  Program to writes Student records to a data file.
+output:- 1. Add record
+	2. View record
+	3. Exit 
+	        1
+	Enter Roll no:- 001   
+
+	Enter Name:- himanshu
+	1. Add record
+	2. View record
+	3. Exit 
+	1
+	Enter Roll no:- 2
+
+	Enter Name:- pooja
+	1. Add record
+	2. View record
+	3. Exit 
+	2
+
+	 ******  student record file data ******
+	Roll no |  Name
+	1 | himanshu
+
+	4 | pooja
+
+
+	1. Add record
+	2. View record
+	3. Exit 
+	3
+
+=========================================================
+prog32:- Program uses file pointer to display any arbitrary record from an pre existing file.
+output:- Enter the details of students to be written onto the data file student.dat:
+ 	 Enter the roll no :1
+	 Enter the name :himanshu
+	 Enter percentage:99
+
+	 Enter the roll no :2
+	 Enter the name :pooja
+	 Enter percentage:100 
+
+	 Enter the roll no :3
+	 Enter the name :suraj
+	 Enter percentage:99.3
+
+	 NO OF RECORDS IN THE FILE student.dat: 3
+
+	 Enter record no: 2
+	 Roll no: 2
+	 Name: pooja
+	 Percentage: 100
+
+
+========================================================
+prog33:- Program writes Student records to a data file. Read records based on name entered.
+output:-1. Add record
+	2. View record
+	3. Exit
+
+	1
+	Enter Roll no:- 1
+
+	Enter Name:- himanshu
+
+
+
+	1. Add record
+	2. View record
+	3. Exit
+	1
+	Enter Roll no:- 2
+
+	Enter Name:- suraj
+
+
+
+	1. Add record
+	2. View record
+	3. Exit
+	1
+	Enter Roll no:- 3
+
+	Enter Name:- arvind
+
+
+
+	1. Add record
+	2. View record
+	3. Exit
+	2
+
+
+	 ********** student record *********
+	Enter Name to view record:- 
+	suraj
+	Roll no:- 2 
+	Name:-  suraj
+
+
+
+	1. Add record
+	2. View record
+	3. Exit
+	2
+
+
+	 ********** student record *********
+	Enter Name to view record:- 
+	pooja
+	No record found
+
+
+	1. Add record
+	2. View record
+	3. Exit
+	3
+
+
+=======================================================
+prog34:- Program for Friend function as a bridge between two classes rupee and dollar
+output:- CONVERTING RUPEES TO DOLLAR
+	 RUPEES : Rs200
+	 DOLLAR : $3
+	 CONVERTING DOLLAR TO RUPEES
+	 DOLLAR : $10
+	RUPEES : Rs550
+
+
+======================================================
+prog35:-  Program for Static data member and member function
+output:- initialising class data member using object s1
+	passing object s1 as parameter to static void show()
+	i= 10
+	static j=20
+	initialising class data member using object s1
+	passing object s1 as parameter to static void show()
+	i= 30
+	static j=60
+	passing object s2 as parameter to static void show()
+	i= 0
+	static j=60
+
+
+=====================================================
